@@ -1,17 +1,19 @@
-float rectx = 200;
-float recty = 200;
-
-float circleX = rectx + 0;
-float circleY = recty + 20;
+//#Retangulo
 //dimensoes do retangulo
 float comprimento = 120;
 float altura = 120;
 //coordenads finais do retangulo
+float rectx = 200;
+float recty = 200;
 float rectxf = rectx + comprimento;
 float rectyf = recty + altura;
+//#Circulo
+//propriedades do circulo
+float circleX = rectx + 0;
+float circleY = recty + 20;
+//velocidade do circulo 
 float xSpeed = 1.5;
 float ySpeed = 1.5;
-
 void setup(){ size(400,600);}
 void draw(){
   background(200);
