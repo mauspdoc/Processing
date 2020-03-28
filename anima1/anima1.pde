@@ -3,9 +3,10 @@ float recty = 200;
 
 float circleX = rectx + 0;
 float circleY = recty + 20;
-
+//dimensoes do retangulo
 float comprimento = 120;
 float altura = 120;
+//coordenads finais do retangulo
 float rectxf = rectx + comprimento;
 float rectyf = recty + altura;
 float xSpeed = 1.5;
