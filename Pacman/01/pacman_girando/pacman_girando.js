@@ -15,6 +15,4 @@ x += speed; // incrementa o valor de x
 arc(x, 60, radius, radius, r1, r2);
 r1 += 0.01;
 r2 += 0.01;
-// é 
-if(x > width+radius){exit();} 
 }
